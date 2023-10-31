@@ -17,7 +17,7 @@ function Projects() {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.</p>
         </div>
-        <div className='flex gap-12'>
+        <div className='flex gap-12 flex-col sm:flex-row'>
         <div className='bg-[#050505] p-5  rounded-2xl sm:w-[360px] w-full'>
        <div className='relative w-full h-[230px]'>
             <img src={ecommm} alt='ecommm' className='w-full h-full object-cover rounded-2xl' />
